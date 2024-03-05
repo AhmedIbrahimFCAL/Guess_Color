@@ -1,4 +1,4 @@
-# Author: Ahmaad_Ibrahim_AbuDanckash
+# Author: Ahmad_Ibrahim_AbuDanckash
 
 import random,string as st
 x = ["red","yellow","green","black","white","gray","orange","brown","pink","rose","golden","violet","grey","olive","indigo"]
@@ -8,7 +8,7 @@ x1=random.choice(x)
 # create the _ for characters number
 lst = ["_" for i in x1]
 num = len(x1)
-print("This game depends on sellection random color and giving the user attempts by the characters number double")
+print("\aThis game depends on sellection random color and giving the user attempts by the characters number double")
 print("\nThe word consists of",num,"letters.")
 
 # giving the user attempts by the characters number double
@@ -43,3 +43,4 @@ while num:
     if not(num):
         print("good Luck!\nThe word was ",x1)
 print("Thanks fot using my program. See You Soon!")
+# Thanks fot reading my code. See You Soon!
